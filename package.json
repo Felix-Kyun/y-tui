@@ -1,0 +1,30 @@
+{
+	"name": "ytui-v2",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon ./src/index.mjs",
+		"start": "node ./src/index.mjs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@babel/preset-env": "^7.24.4",
+		"blessed": "^0.1.81",
+		"blessed-contrib": "^4.11.0",
+		"jimp": "^0.22.12",
+		"node-fetch": "^3.3.2",
+		"node-mpv-2": "^2.0.0-beta.3",
+		"nodemon": "^3.1.0",
+		"sharp": "^0.33.3",
+		"tmp": "^0.2.3",
+		"youtube-music-api": "^1.0.6",
+		"ytmusic-api-extended": "^1.0.2"
+	},
+	"bin": {
+		"ytui": "./src/index.mjs"
+	}
+}
